@@ -2,9 +2,12 @@ import Debug "mo:base/Debug";
 
 
 actor dBank{
-  var currentValue = 300;
+  var currentValue = 300;  //normal variable
   currentValue := 100;
 
-  Debug.print("Hello");
+
+
+  let id = 23489238403955665 ;  //it is constant in mo
+  Debug.print(debug_show(id));
 
 }
